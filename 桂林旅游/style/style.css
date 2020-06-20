@@ -1,0 +1,77 @@
+﻿ /* CSS Document */
+*{ margin:0px; padding:0px; list-style:none;}
+a{ text-decoration:none; color:#000;}
+a:hover{ text-decoration:underline;}
+body{ font-family:"宋体"; font-size:12px; background:url(../images/bg01.jpg)}
+.head{ width:1000px; margin:0 auto;}
+.logo{ margin-top:20px; font-family:"微软雅黑"; font-size:36px; color:#fff;  padding-left:10px;}
+.logo em{ font-family:Broadway; font-style:normal}
+.nav{ width:1000px; height:45px; background:#000; margin-top:30px;}
+.nav li{ float:left }
+.nav li a{color:#FFF; font-size:16px; font-family:"微软雅黑"; display:block; text-align:center; line-height:45px; height:45px; margin-left:16px; margin-right:20px; padding:0 20px;}
+.nav li .active,.nav li a:hover{ background:#fff; color:#c56431; }
+.banner{ width:1000px; height:300px; overflow:hidden}
+h3{ height:40px; line-height:40px; padding-left:10px; line-height:40px; font-size:18px;}
+.foot{ width:930px; margin:0 auto; background:url(../images/img036.png) no-repeat; clear:both; padding-top:10px;  line-height:24px; padding-bottom:10px; padding-left:15px; padding-right:15px;}
+.bottom{ height:30px; line-height:30px;  clear:both;width:1000px; color:#fff; margin:0px auto;  text-align:center;}
+.mt{ line-height:24px; margin-top:20px; padding-right:10px; color:#333; padding:10px;}
+#main{ margin:0 auto;width:1000px; overflow:hidden;color:#aaa; font-size:14px; line-height:22px; background:#fff}
+#main_l{ float:right;
+		 width:780px;
+		 margin:10px;
+		 }
+ul{ margin:0; padding:0;}
+#piceure li{ list-style-type:none; width:136px; height:191px; float:left; margin-right:20px; margin-bottom:20px; background:#fff;}
+#piceure li img{ width:360px; height:190px;}
+.title{height: 30px;
+font-family: Microsoft YaHei;
+font-size: 16px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+
+color: #333;
+line-height: 30px;
+padding-left: 10px}
+ul#list { margin:0; padding:0;}
+ul#list li a{ display:block; background:#000; width:180px; height:120px;}
+ul#list li a img:hover{ filter: alpha(opacity=45); opacity:0.45}
+ul#wzlist { margin:0; padding:0;}
+#list li{list-style-type:none; width:180px; height:120px; float:left; margin-right:15px; margin-bottom:20px; background:#fff;}
+#list li img{width:180px; height:120px;}
+#wzlist li{list-style-type:none; border-bottom:1px dashed #272727; line-height:46px;}
+#wzlist li a { color:#aaa; text-decoration:none;}
+#wzlist li a:hover{ color:#fff}
+
+.navli {position: relative;}
+.drop{ display: none; position: absolute; z-index: 8 }
+.navli:hover .drop{display: block;}
+.content{ color:#333}
+
+#main_r{ float:left;
+		 width:180px; margin:10px;
+		 }
+		 .main{ width:1000px; margin:20px auto; line-height:30px; font-size:14px}
+#main_t{ background:#2c2b2d;}
+#main_f{ background:#2c2b2d;}
+#galaxy ul{margin:0; padding:0;}
+#galaxy li{ list-style-type:none; line-height:30px; border:1px solid #000; padding-left:10px; margin-bottom:10px; background:#000; cursor:pointer}
+#galaxy li:hover{ background:#000; color:#fff; font-weight:700;}
+#galaxy li em{ display:inline-block; font-style:normal; font-weight:700}
+#galaxy li a{ color:#fff; font-size:14px; text-decoration:none}
+#galaxy li a:hover{ color:#000;}.mainbox{
+    overflow:hidden;
+    position:relative;
+}
+.flashbox{
+   overflow:hidden;
+    position:relative;
+}
+.imagebox{
+    text-align:right;position:relative;z-index:999; right:480px;
+}
+
+.bitdiv{display:inline-block;width:18px;height:18px;margin:0 0 10px 0px;cursor:pointer;float:right;}
+.defimg{background-image:url(../images/img013.png)}
+.curimg{background-image:url(../images/img014.png)}
+.top{ display:block; width:40px; height:50px; background:#000; position:fixed; right:0; color:#fff; 
+text-align:center; line-height:40px; font-size:14px; font-family:Arial, Helvetica, sans-serif; bottom:100px; line-height:26px; right:60px}
